@@ -1,4 +1,6 @@
-# Introdução
+# CAPITULO 1
+
+## Introdução
 
 > Apresenta uma contextualização sobre o Big Data,
 > mostrando a importância e a necessidade de se
@@ -44,22 +46,24 @@ armazenar os dados na velocidade que são gerados, torna os bancos de dados
 tradicionais[(RDBMS)](https://www.oracle.com/br/database/what-is-a-relational-database/)
 inadequados para lidar com grandes volumes de dados.
 
-|  **Attributes**   |       **RDBMS**        |           **Big Data**           |
-| :---------------: | :--------------------: | :------------------------------: |
-|  **Data volume**  | Gigabytes to terabytes |     Petabytes to zettabytes      |
-| **Organization**  |      Centralized       |           Distributed            |
-|   **Data type**   |       Structured       | Unstructured and semi-structured |
-| **Hardware type** |     High-end model     |        Commodity hardware        |
-|    **Updates**    | Read/write many times  |   Write once, read many times    |
-|    **Schema**     |         Static         |             Dynamic              |
+| **Attributes**    | **RDBMS**              | **Big Data**                     |
+|:-----------------:|:----------------------:|:--------------------------------:|
+| **Data volume**   | Gigabytes to terabytes | Petabytes to zettabytes          |
+| **Organization**  | Centralized            | Distributed                      |
+| **Data type**     | Structured             | Unstructured and semi-structured |
+| **Hardware type** | High-end model         | Commodity hardware               |
+| **Updates**       | Read/write many times  | Write once, read many times      |
+| **Schema**        | Static                 | Dynamic                          |
 
 - **Data Mining**
+  
   - Data mining é o processo de descobrir o conhecimento subjacente dos conjuntos de dados.
   - Trabalha com dados estruturados provenientes de planilhas, bancos de dados relacionais, etc.
   - É capaz de processar grandes conjuntos de dados, mas os custos de processamento são altos.
   - Pode processar conjuntos de dados que variam de gigabytes a terabytes.
 
 - **Big Data**
+  
   - Big data refere-se a grandes volumes de dados caracterizados por volume, velocidade e variedade.
   - Inclui dados estruturados, não estruturados ou semi-estruturados provenientes de bancos de dados não relacionais, como NoSQL.
   - Ferramentas e tecnologias de big data são capazes de armazenar e processar grandes volumes de dados a custos relativamente mais baixos.
@@ -177,8 +181,3 @@ e scripts necessários para o funcionamento do Hadoop.
 - Seguros: Análise de dados de sinistros para identificar fraudes e avaliar riscos.
 - Varejo: Análise de dados de vendas para prever a demanda e otimizar o estoque.
 - Entretenimento: Análise de dados de visualização para recomendar conteúdo personalizado aos usuários.
-
-## NOTA
-
-Ao final do capitulo ele oferece um resumo do que foi abordado, e uma lista de
-exercícios para fixação do conteúdo.
